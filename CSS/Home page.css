@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: poppins,Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 395px) {
+    .bg-brand{
+     height: 150px !important;
+     width: 150px !important;
+      
+    }
+    .brand{
+        font-size: 75px !important;
+    }
+    .may-margin{    
+         margin-top: 45px !important;
+         margin-bottom: 90px !important;
+    }
+    .may-img{
+        /* background-position-y: 50% !important; */
+        background-position-x: 0% !important;
+        background-size: 100% !important;
+    }
+    .ex-m{
+        margin-left: 120px !important;
+    }
+    .may-lg-font{
+        font-size: 18px !important;
+
+    }
+    .m-width{
+        width: 30% !important;
+        margin-bottom: 0rem !important;
+    }
+    .errspan {
+        /* padding-left:452px !important;
+        bottom: 22px !important; */
+        padding-left: 435px !important;
+        bottom: 22px !important;
+    }
+    .may-ip-res-w{
+        /* width: 50%; */
+        width: 580px;
+
+    }
+    .may-ip-loc-w{
+        /* width: 22%; */
+        width: 250px;
+
+    }
+
+
+}
+.bg-brand{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50% !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+.brand{
+    font-size: 50px;
+}
+.may-img{
+
+background-image: linear-gradient( transparent, rgba(0, 0, 0, 0.455)),url('../images/home.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: 50%;
+background-position-x: 37%;
+background-size: 350%;
+
+}
+
+.may-h-w{
+    height:100% !important;
+    width:100% !important;
+}
+.s-blue{
+    color: #192F60;
+}
+.s-gray{
+    color: #8C96AB;
+}
+.s-img{
+    height: 200px;
+    width: 200px;
+    transform: translateX(-5x);
+    /* transform: scale(1); */
+}
+.oh{
+    overflow: hidden;
+}
+.ex-m{
+    margin-left: 35px;
+
+}
+.m-width{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.may-ps-abs{
+    position: relative;
+}
+
+.errspan {
+        position: absolute;
+        padding-left:18px;
+        bottom: 68px;
+        z-index: 1;
+        color: #8C96AB;
+    }
